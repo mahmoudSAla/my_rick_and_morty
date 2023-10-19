@@ -1,0 +1,74 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Africa/Cairo
+X-LIC-LOCATION:Africa/Cairo
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+TZNAME:EEST
+DTSTART:19700424T000000
+RRULE:FREQ=YEARLY;BYMONTH=4;BYDAY=-1FR
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+TZNAME:EET
+DTSTART:19701029T235959
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1TH
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Africa/Cairo:20231003T130000
+DTEND;TZID=Africa/Cairo:20231003T140000
+DTSTAMP:20230926T102046Z
+ORGANIZER;CN=Nehal ElRouby (MiddleEast):mailto:nehal.elrouby@pwc.com
+UID:35a4g2p284lcn8amefgff5rjth@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Mohamed Ghanem (MiddleEast);X-NUM-GUESTS=0:mailto:mohamed.ghanem@pw
+ c.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=mahmoudsalah.mob.dev@gmail.com;X-NUM-GUESTS=0:mailto:mahmoudsalah.m
+ ob.dev@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Nehal ElRouby (MiddleEast);X-NUM-GUESTS=0:mailto:nehal.elrouby@pwc.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=OPT-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Engy Gadallah (MiddleEast);X-NUM-GUESTS=0:mailto:engy.gadallah@pwc.
+ com
+X-GOOGLE-CONFERENCE:https://meet.google.com/tgf-fozp-emh
+X-MICROSOFT-CDO-OWNERAPPTID:-513546055
+CREATED:20230926T102044Z
+DESCRIPTION:<p><i>Dear Mahmoud\, </i></p><p><i>Greetings from PwC Etic!</i>
+ </p><p><i>It was a pleasure speaking with you. We areglad to inform you tha
+ t we are moving forward to the interviewing process.Kindly find the intervi
+ ew details and some tips below: </i></p><p><i>Interview form: Virtual video
+  conferencingin English</i></p><p><i>Dress Code: Semi-formal / Smart casual
+ </i></p><p><i>Make sure you are in a quiet spacethroughout the whole interv
+ iew.</i></p><p><i>Make sure you get into the meeting 10minutes before it be
+ gins and check that the meeting link is working.</i></p><p><i>Ensure that y
+ our camera is on and working.</i></p><p><i>Make sure that you attend the me
+ eting fromyour PC as you will be expected to share the screen.</i></p><p><i
+ >Please do not hesitate to contact me if youneed any further information. <
+ /i></p><p><i>Best of luck!</i></p>\n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: 
+ https://meet.google.com/tgf-fozp-emh\nOr dial: (EG) +20 800 006 0254 PIN: 8
+ 30006665#\nMore joining options: https://tel.meet/tgf-fozp-emh?pin=81448758
+ 97052&hs=7\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20230926T102044Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Interview with Mahmoud Salah-Flutter-A
+TRANSP:OPAQUE
+ATTACH;FILENAME=Mahmoud Salah Flutter FF.docx;FMTTYPE=application/vnd.openx
+ mlformats-officedocument.wordprocessingml.document:https://drive.google.com
+ /open?id=1YWGhqsRdLbztrCqqM1USk-pbpfmrPoSy&authuser=0
+ATTACH;FILENAME=mahmoud salah.pdf;FMTTYPE=application/pdf:https://drive.goo
+ gle.com/open?id=1WzP0z4BhZtCWncBlerbd-q9nVj7OGtc2&authuser=0
+END:VEVENT
+END:VCALENDAR
